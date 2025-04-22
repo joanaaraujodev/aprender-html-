@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+</head>
+<body>
+    <h1>Perfil do candidato</h1>
+    <br><br>
+
+    <form method="POST">
+        
+        <label for="nome"> Nome </label>
+        <input type="text" name="name" id="nome" placeholder="Joana">
+
+        <br><br>
+
+        <label for="nome-2"> Apelido </label>
+        <input type="text" name="name-2" id="nome2" placeholder="Araújo">
+
+        <br><br>
+
+        <label for="telemovel"> Nº Telemóvel</label>
+        <input type="tel" name="tell" id="telemovel" placeholder="+351675493028">
+
+        <br><br>
+
+        <label for="correio"> E-mail</label>
+        <input type="email" name="email" id="correio" placeholder="joanaba2002@gmail.com">
+
+        <br><br>
+
+        <label for="site"> Website/Linkedin</label>
+        <input type="url" name="url" id="site" placeholder="https://joanasacouto.cargo.site/">
+
+        <br><br>
+
+        <label for="ficheiro"> Website/Linkedin</label>
+        <input type="file" name="file" id="ficheiro" required>
+
+        <br><br>
+
+        <label for="ficheiro"> Curriculum Vitae</label>
+        <input type="file" name="file" id="ficheiro" required>
+
+        <br><br>
+
+        <label for="empresa"> Nome da útima empresa onde trabalhou</label>
+        <input type="text" name="text" id="empresa" required>
+
+        <br><br>
+
+        <label for="data">Data de início do cargo nessa empresa</label>
+        <input type="date" name="date" id="data" value="2024-10-10" required>
+
+        <br><br>
+
+        <label for="data2">Data de término do cargo nessa empresa</label>
+        <input type="date" name="date" id="data2" value="2024-10-10">
+
+        <br><br>
+
+        <label for="n-meses">Nºde meses a dar à casa</label>
+        <input type="number" name="number" id="n-meses" min="0" max="12" required>
+
+        <br><br>
+
+        <label for="carta">Cover Letter</label>
+        <textarea name="textarea" id="carta" minlength="100" maxlength="300"></textarea>
+
+        <br><br>
+
+        <label for="plataformas">Onde ouviste falar de nós?</label>
+        <select name="platform" id="plataformas">
+            <option value=""> - - - Seleciona uma destas opções - - - </option>
+            <option value="Gg">Google</option>
+            <option value="FR">Amigos</option>
+            <option value="LKD">Linkedin</option>
+            <option value="ETC">Outros</option>
+        </select>
+        <br><br>
+
+
+
+    </form>
+
+</body>
+</html>
